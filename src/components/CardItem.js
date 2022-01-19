@@ -16,7 +16,7 @@ function CardItem(props) {
   };
 
   useEffect(() => {
-    fetchImage();
+    //fetchImage();
   }, []);
 
   return (

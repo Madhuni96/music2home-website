@@ -55,47 +55,47 @@ function Events() {
           <ul className='cards__items'>
             <CardItem
               src='images/1.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              text='Daddy - Eka Ahasak Yata'
+              label='Concert'
+              path='/event'
             />
             <CardItem
               src='../images/2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              text='BnS - Drive-in concert'
+              label='Concert'
+              path='/event'
             />
             <CardItem
               src='../images/3.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              text='Daddy - Aalee'
+              label='Concert'
+              path='/event'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='../images/4.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              text='Gypsies - Under the stars'
+              label='Concert'
+              path='/event'
             />
             <CardItem
               src='../images/5.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              text='Gypsies - Dance on'
+              label='Concert'
+              path='/event'
             />
             <CardItem
               src='../images/6.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              text='BnS - Kickoff Celebration Concert'
+              label='Concert'
+              path='/event'
             />
             <CardItem
               src='../images/7.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              text='Daddy - Aalee'
+              label='Concert'
+              path='/event'
             />
           </ul>
         </div>
