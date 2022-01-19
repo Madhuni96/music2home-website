@@ -31,7 +31,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className='navbar-logo'>
-                        <img src={logo} alt="logo" className="logo_img" />
+                        Music2Home<img src={logo} alt="logo" className="logo_img" />
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -53,12 +53,12 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/sign-up' className='nav-links-mobile'  onClick={closeMobileMenu}>
-                                Sign Up
+                            <Link to='/sign-in' className='nav-links-mobile'  onClick={closeMobileMenu}>
+                                Sign In
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                    {button && <Button to='/sign-in' buttonStyle='btn--outline'>SIGN IN</Button>}
                 </div>
             </nav>
         </>

@@ -1,11 +1,54 @@
+:root {
+  --mainPurple: rgb(134, 24, 187);
+  --lightPurple: rgb(212, 179, 239);
+  --mainWhite: #ffffff;
+  --mainBlack: #000000;
+  --mainGrey: #2e2b2b;
+  --mainDark: #1e0b0c;
+  --mainYellow: #ffa400;
+  --mainBlue: #441cd1;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'PT Sans', sans-serif;
   }
+
+  .background {
+    background-size: cover;
+    min-height: 100vh;
+    background: linear-gradient(rgb(212, 179, 239), rgb(134, 24, 187)), center/cover fixed no-repeat;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    padding: 2vh 2vw;
+    margin: 25vh 20vw;
+    width: auto;
+    height: auto;
+    border-radius: 0.5rem;
+    background-color: var(--mainPurple) !important;
+  }
+
+  .direction {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .oppositedirection {
+    display: flex;
+    flex-direction: column;
+  }
   
   .home,
+  .event,
   .services,
   .products,
   .sign-up {
@@ -16,7 +59,7 @@
     font-size: 3rem;
   }
   
-  .services {
+  .event {
     /* background-image: url('../public/images/img-2.jpg'); */
     background-position: center;
     background-size: cover;
